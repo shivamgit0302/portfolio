@@ -32,17 +32,17 @@ export default function Document() {
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="language" content="English"/>
             <meta name="revisit-after" content="1 days"/>
-            <link rel="canonical" href="https://portfolio-lyart-alpha-42.vercel.app" />
+            <link rel="canonical" href="https://shivamtiwari.info" />
             <meta name="license" content="MIT License" />
             <meta httpEquiv="content-language" content="en-us" />
 
-            <link rel="preconnect" href="https://portfolio-lyart-alpha-42.vercel.app" />
+            <link rel="preconnect" href="https://shivamtiwari.info" />
 
-            <link rel="dns-prefetch" href="https://portfolio-lyart-alpha-42.vercel.app" />
+            <link rel="dns-prefetch" href="https://shivamtiwari.info" />
 
             <meta name="author" content="Shivam Tiwari" />
 
-            <link rel="alternate" hrefLang="en" href="https://portfolio-lyart-alpha-42.vercel.app" />
+            <link rel="alternate" hrefLang="en" href="https://shivamtiwari.info" />
 
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
@@ -73,7 +73,7 @@ export default function Document() {
             <meta property="og:image:alt" content="Shivam Tiwari" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
-            <meta property="og:url" content="https://portfolio-lyart-alpha-42.vercel.app" />
+            <meta property="og:url" content="https://shivamtiwari.info" />
             <meta property="og:type" content="website" />
             <meta property="og:profile" content="https://github.com/shivamgit0302" />
             <meta property="og:site_name" content="Shivam Tiwari" />
@@ -132,7 +132,7 @@ export default function Document() {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Shivam Tiwari",
-          "url": "https://portfolio-lyart-alpha-42.vercel.app",
+          "url": "https://shivamtiwari.info",
           "sameAs": [
             "https://github.com/muhammad-fiaz",
             "https://www.linkedin.com/in/muhammad-fiaz-",
@@ -207,22 +207,22 @@ export default function Document() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://portfolio-lyart-alpha-42.vercel.app/"
+              "item": "https://shivamtiwari.info/"
             },{
               "@type": "ListItem",
               "position": 2,
               "name": "Docs",
-              "item": "https://portfolio-lyart-alpha-42.vercel.app/docs"
+              "item": "https://shivamtiwari.info/docs"
             },{
               "@type": "ListItem",
               "position": 3,
               "name": "Articles",
-              "item": "https://portfolio-lyart-alpha-42.vercel.app/articles"
+              "item": "https://shivamtiwari.info/articles"
             },{
               "@type": "ListItem",
               "position": 4,
               "name": "Projects",
-              "item": "https://portfolio-lyart-alpha-42.vercel.app/projects"
+              "item": "https://shivamtiwari.info/projects"
             }]
           }
         `
