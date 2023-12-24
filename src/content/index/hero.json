@@ -11,7 +11,7 @@
 	},
 
 	"header": {
-		"name": "Muhammad Fiaz.",
+		"name": "Shivam Tiwari.",
 		"usp": "Passionate Full Stack Developer."
 	},
 
@@ -20,12 +20,12 @@
 	"buttons": {
 		"primary": {
 			"title": "Hire Me",
-			"url": "mailto:s.muhammadfiaz2003@gmail.com",
+			"url": "mailto:s.shivamtiwari100@gmail.com",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/muhammad-fiaz-/",
+			"url": "https://www.linkedin.com/in/shivam-tiwari-852b59146/",
 			"leaveSite": "true"
 		}
 	}

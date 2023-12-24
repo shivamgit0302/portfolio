@@ -25,7 +25,7 @@ export default function Home() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<Image src="https://avatars.githubusercontent.com/u/75434191?v=4" width={600} height={800} alt="Muhammad Fiaz"   loading="eager" />
+						<Image src="https://avatars.githubusercontent.com/u/59158846?s=400&u=2683623ecc2c10d898ee3573f77eefce2c40167c&v=4" width={600} height={800} alt="Shivam Tiwari"   loading="eager" />
 					</div>
 					<div className={about.copy}>
 						<CopyBlock

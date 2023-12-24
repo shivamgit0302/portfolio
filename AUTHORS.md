@@ -1,3 +1,3 @@
 # Authors
 
-- Muhammad Fiaz ([GitHub](https://github.com/muhammad-fiaz))
+- Shivam Tiwari ([GitHub](https://github.com/muhammad-fiaz))

@@ -60,7 +60,7 @@ export default function Hero() {
 				<section style={{ position: 'relative' }}>
 					<button
 						className={`button ${button.primary}`}
-						onClick={() => (window.location = 'mailto:contact@muhammadfiaz.com')}
+						onClick={() => (window.location = 'mailto:shivamtiwari100@gmail.com')}
 						onMouseEnter={() => setIsHiremeTooltipVisible(true)}
 						onMouseLeave={() => setIsHiremeTooltipVisible(false)}
 					>
@@ -76,7 +76,7 @@ export default function Hero() {
 					<button
 						className={`button ${button.secondary} leaveSite`}
 
-						onClick={() => window.open('https://www.linkedin.com/in/muhammad-fiaz-', '_blank')}
+						onClick={() => window.open('https://www.linkedin.com/in/shivam-tiwari-852b59146/', '_blank')}
 
 						onMouseEnter={() => setIsYescatTooltipVisible(true)}
 						onMouseLeave={() => setIsYescatTooltipVisible(false)}

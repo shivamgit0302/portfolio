@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import Head from 'next/head'
 import {Router} from 'next/router';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
@@ -82,8 +83,9 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
             ) : (
                 <LazyMotion features={domAnimation}>
                     <Layout>
+                        <Head><title>Shivam Tiwari</title></Head>
                         <Component {...pageProps} />
-                        <DevelopmentNotice />
+                        {/* <DevelopmentNotice /> */}
                         <Chatbot />
                         <SpeedInsights/>
                         <Analytics />
