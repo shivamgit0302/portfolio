@@ -65,7 +65,7 @@ if you have any suggestions or feedback, feel free to open an [issue](https://gi
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/muhammad-fiaz/portfolio.git`
+1. Clone the repository: `git clone https://github.com/shivamgit0302/portfolio.git`
 2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run dev`
@@ -137,20 +137,6 @@ and also [Google Fonts](https://fonts.google.com/icons).
 Please Read the [Next.js Documentation](https://nextjs.org/docs/getting-started).
 Also, Read the [React.js Documentation](https://reactjs.org/docs/getting-started.html).
 
-
-## Support Me
-
-<div align="center">
-
-<h5> <strong> 💰 You can help me improve more by offering a little support on any platform❤️</strong></h5>
-  
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/muhammadfiaz) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/muhammadfiaz) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/muhammadfiaz)
-[![Sponsor muhammad-fiaz](https://img.shields.io/badge/Sponsor-%231EAEDB.svg?&style=for-the-badge&logo=GitHub-Sponsors&logoColor=white)](https://github.com/sponsors/muhammad-fiaz)
-[![Open Collective Backer](https://img.shields.io/badge/Open%20Collective-Backer-%238CC84B?style=for-the-badge&logo=open-collective&logoColor=white)](https://opencollective.com/muhammadfiaz)
-</div>
-
-
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/muhammad-fiaz/portfolio/blob/main/LICENSE.md) file for details.
@@ -161,8 +147,6 @@ Contributions are welcome!
 
 If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 And make sure to follow the [project guidelines](CODE_OF_CONDUCT.md)
-
-
 
 ## Deploy on Vercel
 
