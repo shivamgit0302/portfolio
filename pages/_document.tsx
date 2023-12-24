@@ -32,17 +32,17 @@ export default function Document() {
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
             <meta name="language" content="English"/>
             <meta name="revisit-after" content="1 days"/>
-            <link rel="canonical" href="https://muhammadfiaz.com" />
+            <link rel="canonical" href="https://portfolio-lyart-alpha-42.vercel.app" />
             <meta name="license" content="MIT License" />
             <meta httpEquiv="content-language" content="en-us" />
 
-            <link rel="preconnect" href="https://muhammadfiaz.com" />
+            <link rel="preconnect" href="https://portfolio-lyart-alpha-42.vercel.app" />
 
-            <link rel="dns-prefetch" href="https://muhammadfiaz.com" />
+            <link rel="dns-prefetch" href="https://portfolio-lyart-alpha-42.vercel.app" />
 
             <meta name="author" content="Shivam Tiwari" />
 
-            <link rel="alternate" hrefLang="en" href="https://muhammadfiaz.com" />
+            <link rel="alternate" hrefLang="en" href="https://portfolio-lyart-alpha-42.vercel.app" />
 
             <meta name="robots" content="index, follow" />
             <meta name="googlebot" content="index, follow" />
@@ -67,26 +67,17 @@ export default function Document() {
 
             <meta property="og:title" content="Shivam Tiwari" key="title" />
             <meta property="og:description" content="Shivam Tiwari - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta property="og:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
-            <meta property="og:image:secure_url" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
+            <meta property="og:image" content="https://avatars.githubusercontent.com/u/59158846?s=400&u=2683623ecc2c10d898ee3573f77eefce2c40167c&v=4" />
+            <meta property="og:image:secure_url" content="https://avatars.githubusercontent.com/u/59158846?s=400&u=2683623ecc2c10d898ee3573f77eefce2c40167c&v=4" />
             <meta property="og:image:type" content="image/jpeg" />
             <meta property="og:image:alt" content="Shivam Tiwari" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
-            <meta property="og:url" content="https://muhammadfiaz.com" />
+            <meta property="og:url" content="https://portfolio-lyart-alpha-42.vercel.app" />
             <meta property="og:type" content="website" />
-            <meta property="og:profile" content="https://github.com/muhammad-fiaz" />
+            <meta property="og:profile" content="https://github.com/shivamgit0302" />
             <meta property="og:site_name" content="Shivam Tiwari" />
-             <meta property="og:locale" content="en_US" />
-
-
-            <meta name="twitter:card" content="summary" />
-            <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_" />
-            <meta name="twitter:title" content="Shivam Tiwari" />
-            <meta name="twitter:description" content="Shivam Tiwari - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
-            <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_" />
-            <meta name="twitter:domain" content="https://muhammadfiaz.com" />
+            <meta property="og:locale" content="en_US" />
 
 
     <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='2048x2732' />
@@ -141,7 +132,7 @@ export default function Document() {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Shivam Tiwari",
-          "url": "https://muhammadfiaz.com",
+          "url": "https://portfolio-lyart-alpha-42.vercel.app",
           "sameAs": [
             "https://github.com/muhammad-fiaz",
             "https://www.linkedin.com/in/muhammad-fiaz-",
@@ -216,22 +207,22 @@ export default function Document() {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://muhammadfiaz.com/"
+              "item": "https://portfolio-lyart-alpha-42.vercel.app/"
             },{
               "@type": "ListItem",
               "position": 2,
               "name": "Docs",
-              "item": "https://muhammadfiaz.com/docs"
+              "item": "https://portfolio-lyart-alpha-42.vercel.app/docs"
             },{
               "@type": "ListItem",
               "position": 3,
               "name": "Articles",
-              "item": "https://muhammadfiaz.com/articles"
+              "item": "https://portfolio-lyart-alpha-42.vercel.app/articles"
             },{
               "@type": "ListItem",
               "position": 4,
               "name": "Projects",
-              "item": "https://muhammadfiaz.com/projects"
+              "item": "https://portfolio-lyart-alpha-42.vercel.app/projects"
             }]
           }
         `

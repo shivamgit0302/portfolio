@@ -1,8 +1,8 @@
 {
 	"Websites": [
 		{
-			"person": "muhammadfiaz.com",
-			"link": "https://muhammadfiaz.com/",
+			"person": "shivamtiwari.com",
+			"link": "https://portfolio-lyart-alpha-42.vercel.app/",
 			"note": ""
 		}
 
@@ -11,12 +11,12 @@
 	"links": [
 		{
 			"person": "Home",
-			"link": "https://muhammadfiaz.com/",
+			"link": "https://portfolio-lyart-alpha-42.vercel.app/",
 			"note": ""
 		},
 		{
 			"person": "Projects",
-			"link": "https://muhammadfiaz.com/projects",
+			"link": "https://portfolio-lyart-alpha-42.vercel.app/projects",
 			"note": ""
 		},
 		{
