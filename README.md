@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1rNTsRRl9L4fFO9bvQqp0gAbjTcOP3CIm"  alt="Shivam Tiwari's Portfolio"/>
+  <img src="https://drive.google.com/uc?id=1zmgLxTDCT1aPeHA4Ydgo3WfvbcyZ2LXS"  alt="Shivam Tiwari's Portfolio"/>
 </p>
 <div align="center">
   <h1><a href="https://shivamtiwari.info/">shivamtiwari.info</a> | portfolio</h1>
