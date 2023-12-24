@@ -232,11 +232,6 @@ export default function Document() {
               "position": 4,
               "name": "Projects",
               "item": "https://muhammadfiaz.com/projects"
-            },{
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Sign In",
-              "item": "https://muhammadfiaz.com/signin"
             }]
           }
         `

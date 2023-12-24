@@ -86,7 +86,7 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
                         <Head><title>Shivam Tiwari</title></Head>
                         <Component {...pageProps} />
                         {/* <DevelopmentNotice /> */}
-                        <Chatbot />
+                        {/* <Chatbot /> */}
                         <SpeedInsights/>
                         <Analytics />
                         <SetGridGap />

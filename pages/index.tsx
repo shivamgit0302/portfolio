@@ -38,11 +38,11 @@ export default function HomePage({ spacing }: HomePageProps) {
 			<Hero />
 			<Looking />
 			<About />
-			<FeaturedProjects />
+			{/* <FeaturedProjects /> */}
 			<Technical />
 			{/*<TimeLine/> -> Coming soon */}
 			<Career />
-			<QnA />
+			{/* <QnA /> */}
 		</div>
 	);
 
