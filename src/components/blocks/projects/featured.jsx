@@ -9,6 +9,7 @@ import Badges from '../../utils/badge.list'
 import Icon from '../../utils/icon'
 
 import css from '../../../styles/scss/sections/projects/featured.module.scss'
+import Link from 'next/link'
 
 export default function FeaturedProject({ content }, index) {
 
@@ -26,6 +27,7 @@ export default function FeaturedProject({ content }, index) {
 	}, [ controls, inView ] )
 
 	return (
+		<Link href={url} target='_blank'>
 		<m.section 	
 			key={index}
 			className={css.project} 
@@ -53,8 +55,7 @@ export default function FeaturedProject({ content }, index) {
 				</div>
 			</div>
 
-			<div className={css.imageContainer}>
-				<span className={`${css.imageAnimationContainer}`}>
+			<div className={`flex justify-center items-center z-3 relative w-1/2 grow shrink-0`}>
 					{ images.map( ({key, url, hover, h, w }, index) => {
 						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
 						return (
@@ -66,9 +67,9 @@ export default function FeaturedProject({ content }, index) {
 							</m.div>
 						)}
 					) }
-				</span>
 			</div>
 		</m.section>
+		</Link>
 	)
 }
 

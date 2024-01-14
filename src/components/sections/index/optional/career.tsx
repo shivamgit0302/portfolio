@@ -43,7 +43,7 @@ export default function Career() {
             <div className={career.companyAlt}></div>
 
             <Badges
-              list={fullStack}
+              list={aimedis}
               block="stack"
               fullContainer="fullContainer"
               color={undefined}
@@ -72,7 +72,7 @@ export default function Career() {
             <div className={career.companyAlt}></div>
 
             <Badges
-              list={fullStack}
+              list={baryons}
               block="stack"
               fullContainer="fullContainer"
               color={undefined}
@@ -85,7 +85,7 @@ export default function Career() {
   );
 }
 
-const fullStack = [
+const aimedis = [
   { key: "javascript", name: "JavaScript", type: "devicon" },
   { key: "nodejs", name: "NodeJS", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },
@@ -102,7 +102,20 @@ const fullStack = [
   { key: "jquery", name: "jQuery", type: "devicon" },
   { key: "tailwindcss", name: "TailwindCSS", type: "devicon" },
   { key: "bootstrap", name: "Bootstrap", type: "devicon" },
-  { key: "npm", name: "NPM", type: "devicon" },
-  { key: "yarn", name: "Yarn", type: "devicon" },
-  { key: "flask", name: "Flask", type: "devicon" },
+  { key: "ec2", name: "EC2", type: "devicon" },
+  { key: "amazonwebservices", name: "AWS", type: "devicon" },
+];
+
+const baryons = [
+  { key: "javascript", name: "JavaScript", type: "devicon" },
+  { key: "html5", name: "HTML5", type: "devicon" },
+  { key: "css3", name: "CSS3", type: "devicon" },
+  { key: "git", name: "Git", type: "devicon" },
+  { key: "mysql", name: "MySQL", type: "devicon" },
+  { key: "mongodb", name: "MongoDB", type: "devicon" },
+  { key: "python", name: "Python", type: "devicon" },
+  { key: "django", name: "Django", type: "devicon" },
+  { key: "ajax", name: "ajax", type: "devicon" },
+  { key: "jquery", name: "jQuery", type: "devicon" },
+  { key: "bootstrap", name: "Bootstrap", type: "devicon" },
 ];

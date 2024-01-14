@@ -4,6 +4,10 @@
 		"title": "Home"
 	},
 	{
+		"url": "/about",
+		"title": "About"
+	},
+	{
 		"url": "/projects",
 		"title": "Projects"
 	}

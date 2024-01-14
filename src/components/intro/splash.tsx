@@ -18,17 +18,6 @@ function LoadingScreen() {
                     }}
                 />
             </div>
-            <div className="bottom-right-image">
-                <Player
-                    autoplay
-                    loop
-                    src="/lottie/loadcode.json"
-                    style={{
-                        width: "80px",
-                        height: "80px",
-                    }}
-                />
-            </div>
         </div>
     );
 }

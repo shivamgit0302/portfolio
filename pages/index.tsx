@@ -5,6 +5,7 @@ import TitleIndex from './title.index';
 // Import your components with dynamic import
 import dynamic from 'next/dynamic';
 import LoadingAnim from "../src/components/intro/loadinganim";
+import LoadingScreen from "../src/components/intro/splash";
 import TimeLine from "../src/components/sections/index/timeline";
 const Hero = dynamic(() => import('../src/components/sections/index/hero'));
 const Looking = dynamic(() => import('../src/components/sections/index/looking'));
@@ -36,10 +37,10 @@ export default function HomePage({ spacing }: HomePageProps) {
 	const renderContent = () => (
 		<div>
 			<Hero />
-			<Looking />
-			<About />
+			{/* <Looking /> */}
+			{/* <About /> */}
 			{/* <FeaturedProjects /> */}
-			<Technical />
+			{/* <Technical /> */}
 			{/*<TimeLine/> -> Coming soon */}
 			<Career />
 			{/* <QnA /> */}
@@ -52,11 +53,9 @@ export default function HomePage({ spacing }: HomePageProps) {
 			<Color colors={colors} />
 
 			{/* Conditionally render components or loading message */}
-			{settings.splashscreen && !componentsLoaded ? (
-				<LoadingAnim />
-			) : (
+			{
 				renderContent()
-			)}
+			}
 		</div>
 	);
 }

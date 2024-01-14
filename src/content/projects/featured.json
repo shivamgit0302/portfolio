@@ -1,3 +1,42 @@
 [
-	
+	{
+		"project": "Rizaahisha Designs",
+		"url": "https://rizaahisha.com",
+		"repo": "Private",
+		"descriptionTitle": "Rizaahisha Designs",
+		"description": "A website which I built on Next.js and React. A fast and responsive multi page application for my friend's Interior Design Studio.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left", 	"h": "200", "w": "400", "url": "/img/rizaahisha.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", "name": "Next.js", "type": "devicon" },
+			{ "key": "javascript", "name": "JavaScript", "type": "devicon" },
+			{ "key": "css3", "name": "CSS3", "type": "devicon" },
+			{ "key": "react", "name": "React", "type": "devicon" },
+			{ "key": "html5", "name": "HTML5", "type": "devicon" }
+		]
+	},
+    {
+		"project": "Game Hub",
+		"url": "https://rawg-game-hub-ten.vercel.app/",
+		"repo": "Public",
+		"descriptionTitle": "Game Hub",
+		"description": "is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left", 	"h": "200", "w": "400", "url": "/img/gamehub.png" }
+		],
+		"stack": [
+            { "key": "react", "name": "React", "type": "devicon" },
+			{ "key": "javascript", "name": "JavaScript", "type": "devicon" },
+			{ "key": "css3", "name": "CSS3", "type": "devicon" },
+			{ "key": "html5", "name": "HTML5", "type": "devicon" }
+		]
+	}
 ]
+
+	
+
