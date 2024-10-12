@@ -9,18 +9,15 @@
 		"deleteDelay": 3000,
 		"restartDelay": 12000
 	},
-
 	"header": {
 		"name": "Shivam Tiwari.",
-		"usp": "Passionate Full Stack Developer."
+		"usp": "Web Developer."
 	},
-
-	"paragraph": "As an experienced Full Stack Developer, I bring a wealth of expertise in backend development, including creating complex database schemas, developing robust APIs, and excelling in problem-solving. My strong foundation is built on Python, Django, and JavaScript, with a notable proficiency in React.js for front-end development. This skill set allows me to craft front-ends that are not only functional but also engaging, complementing my backend prowess.",
-
+	"paragraph": "I am an experienced Web Developer specializing in backend development with over four years of experience building scalable applications and RESTful APIs. My technical skills include Python, Django, and Node.js for backend development, complemented by front-end work with React and Next.js. I have hands-on experience in cloud services like AWS, deploying applications that are both reliable and high-performance. Passionate about delivering comprehensive web solutions, I strive to meet and exceed project goals with a continuous drive for improvement.",
 	"buttons": {
 		"primary": {
 			"title": "Hire Me",
-			"url": "mailto:s.shivamtiwari100@gmail.com",
+			"url": "mailto:shivamtiwari100@gmail.com",
 			"leaveSite": false
 		},
 		"secondary": {

@@ -19,25 +19,26 @@ export default function Career() {
         <SectionTitle
           title="Experience"
           preTitle="Career"
-          subTitle="I am a Full Stack Developer, currently working in the project development field. My primary goal is to enhance my skills and expand my knowledge to gain valuable experience in complex project development. I am dedicated to continuously improving and staying updated with the latest advancements in the industry."
+          subTitle="I am a Web Developer, currently working in the project development field. My primary goal is to enhance my skills and expand my knowledge to gain valuable experience in complex project development. I am dedicated to continuously improving and staying updated with the latest advancements in the industry."
         />
         <section className={career.area}>
           <div className={career.position}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Full Stack Developer at Aimedis </h3>
-                <h4>Steyl, Netherlands - Present</h4>
+                <h3>Senior Web Developer at Aimedis </h3>
+                <h4>Dubai, UAE - (June 2022 - Present)</h4>
               </span>
               <p>
-                At Aimedis in the Netherlands, where I have been working as a
-                Full Stack Developer since June 2022, I&apos;ve had the
-                opportunity to delve into a range of innovative projects. My
-                role primarily involves developing APIs for integrating virtual
-                worlds into the metaverse, alongside creating sophisticated user
-                authentication systems. A significant part of my work also
-                includes designing and implementing avatar creation
-                functionality, using advanced tools like Next.js and React,
-                which has enhanced the user experience on our platforms.
+                As a Senior Web Developer at Aimedis, I have been instrumental
+                in developing robust solutions for a cutting-edge metaverse
+                healthcare platform. My work involves creating RESTful APIs with
+                Next.js to enable seamless integration of 3D functionalities,
+                enhancing user experience significantly. I implemented a
+                real-time chat system using Agora on AWS and developed a Pixel
+                streaming solution leveraging AWS GPU instances for efficient
+                web-based 3D application streaming. Additionally, I integrated
+                payment systems such as Stripe and Metamask, allowing flexible
+                payment options, including cryptocurrency.
               </p>
             </div>
             <div className={career.companyAlt}></div>
@@ -53,20 +54,21 @@ export default function Career() {
           <div className={career.position}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Python Django Developer at Baryons Software Solutions</h3>
+                <h3>Web Developer at Baryons Software Solutions</h3>
                 <h4>Bengaluru, Karnataka - (March 2020-May 2022)</h4>
               </span>
               <p>
-                Before joining Aimedis, I was a Python Django Developer at
-                Baryons Software Solutions in Bengaluru, Karnataka, from March
-                2020 to May 2022. My responsibilities there encompassed
-                developing both server applications and client interfaces,
-                utilizing my expertise in Python, Django, jQuery, and AJAX. This
-                role also involved managing the maintenance and troubleshooting
-                of various Python Django projects. I was actively involved in
-                deploying complex Django applications and writing testable code,
-                contributing significantly to projects in sectors like Hospital
-                Management, E-commerce, and CRM systems.
+                At Baryons Software Solutions, I served as a Web Developer
+                focused on building and maintaining backend solutions using
+                Python and Django. I developed server applications and
+                interactive client interfaces with jQuery and AJAX, streamlining
+                functionality and enhancing user experience. My role involved
+                handling complex deployment challenges and troubleshooting to
+                ensure stable performance for various projects, including
+                hospital management and e-commerce systems. Additionally, I
+                integrated Django-CMS to optimize content management,
+                contributing to more efficient operational workflows for diverse
+                client needs.
               </p>
             </div>
             <div className={career.companyAlt}></div>

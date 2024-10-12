@@ -20,12 +20,12 @@ export default function Home() {
         <SectionTitle
           title="About Me"
           preTitle="Synopsis"
-          subTitle="From an early age, my passion for creating new things has been a driving force. Immersed in the world of design and coding, I honed my skills and explored innovative solutions. This love for creation has shaped my career, fueling my desire to bring impactful and visually stunning projects to life. With meticulous attention to detail and a keen eye for aesthetics, I strive to craft exceptional and memorable experiences."
+          subTitle="With a strong background in backend development and a passion for building impactful web applications, I have over four years of experience creating scalable solutions and RESTful APIs. My expertise spans Python, Django, and cloud services like AWS, complemented by hands-on front-end experience with React and Next.js. I am dedicated to continuous learning and innovation, always aiming to deliver high-quality, efficient, and reliable solutions. Whether developing APIs for a metaverse platform or leading eCommerce projects, I strive to exceed expectations and stay at the forefront of technology."
         />
         <section className={about.content}>
           <div className={about.image}>
             <Image
-              src="https://avatars.githubusercontent.com/u/59158846?s=400&u=2683623ecc2c10d898ee3573f77eefce2c40167c&v=4"
+              src="/img/Profilepic.jpg"
               width={600}
               height={800}
               alt="Shivam Tiwari"
@@ -34,18 +34,25 @@ export default function Home() {
           </div>
           <div className={about.copy}>
             <CopyBlock
-              title="Softskills"
+              title="Technical Excellence"
               containerClass={about.container}
               iconClass={about.icon}
               icon={["fas", "user"]}
-              copy="With a solid background in design and technical expertise, I am a skilled developer who excels in delivering high-quality solutions. Alongside my proficiency in coding, I possess strong leadership, time management, and multitasking skills, which I have honed through managing complex development projects. As a dedicated individual, I constantly seek opportunities to expand my knowledge and stay updated with the latest industry trends. With a passion for creating innovative and efficient applications, I am committed to bringing value and success to every development endeavor."
+              copy="Commitment to delivering clean, efficient, and scalable code."
             />
             <CopyBlock
-              title="Constant Learning and Improvements"
+              title="Continuous Learning"
               containerClass={about.container}
               iconClass={about.icon}
               icon={["fas", "book"]}
-              copy="I have an insatiable thirst for knowledge and a passion for continuous learning and development. Keeping up with the latest industry trends and emerging technologies allows me to stay ahead of the curve. By actively seeking new challenges and expanding my skill set, I constantly push the boundaries of my abilities, ensuring that I deliver cutting-edge solutions and provide valuable insights to clients."
+              copy="Passion for expanding my skill set to adapt to new technologies."
+            />
+            <CopyBlock
+              title="Collaborative Mindset"
+              containerClass={about.container}
+              iconClass={about.icon}
+              icon={["fas", "book"]}
+              copy="Thriving in cross-functional teams to achieve shared goals."
             />
           </div>
         </section>
