@@ -19,20 +19,20 @@ export default function Career() {
         <SectionTitle
           title="Experience"
           preTitle="Career"
-          subTitle="I am a Web Developer, currently working in the project development field. My primary goal is to enhance my skills and expand my knowledge to gain valuable experience in complex project development. I am dedicated to continuously improving and staying updated with the latest advancements in the industry."
+          subTitle="I am a Software Engineer, currently working in the project development field. My primary goal is to enhance my skills and expand my knowledge to gain valuable experience in complex project development. I am dedicated to continuously improving and staying updated with the latest advancements in the industry."
         />
         <section className={career.area}>
           <div className={career.position}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Senior Web Developer at Aimedis </h3>
+                <h3>Senior Software Engineer at Aimedis </h3>
                 <h4>Dubai, UAE - (June 2022 - Present)</h4>
               </span>
               <p>
-                As a Senior Web Developer at Aimedis, I have been instrumental
-                in developing robust solutions for a cutting-edge metaverse
-                healthcare platform. My work involves creating RESTful APIs with
-                Next.js to enable seamless integration of 3D functionalities,
+                As a Senior Software Engineer at Aimedis, I have been
+                instrumental in developing robust solutions for a cutting-edge
+                metaverse healthcare platform. My work involves creating RESTful
+                APIs to enable seamless integration of 3D functionalities,
                 enhancing user experience significantly. I implemented a
                 real-time chat system using Agora on AWS and developed a Pixel
                 streaming solution leveraging AWS GPU instances for efficient
@@ -54,11 +54,11 @@ export default function Career() {
           <div className={career.position}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Web Developer at Baryons Software Solutions</h3>
+                <h3>Software Engineer at Baryons Software Solutions</h3>
                 <h4>Bengaluru, Karnataka - (March 2020-May 2022)</h4>
               </span>
               <p>
-                At Baryons Software Solutions, I served as a Web Developer
+                At Baryons Software Solutions, I served as a Software Engineer
                 focused on building and maintaining backend solutions using
                 Python and Django. I developed server applications and
                 interactive client interfaces with jQuery and AJAX, streamlining

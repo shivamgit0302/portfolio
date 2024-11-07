@@ -15,7 +15,7 @@ export default function TitleIndex() {
       <meta name="application-name" content="Shivam Tiwari" />
       <meta
         name="description"
-        content="Shivam Tiwari - A dedicated Web Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."
+        content="Shivam Tiwari - A dedicated Software Engineer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."
       />
       <meta name="title" content="Shivam Tiwari" />
     </Head>

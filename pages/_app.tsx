@@ -25,77 +25,74 @@ import "../src/styles/css/utils/backtotop.css";
 import dynamic from "next/dynamic";
 import "../src/styles/css/sections/404.css";
 import "../src/styles/css/utils/anim.css";
-import settings from '../src/content/_settings.json';
-const DevelopmentNotice = dynamic(() => import( "../src/components/dev/status"));
+import settings from "../src/content/_settings.json";
 const BackToTop = dynamic(() => import("../src/components/utils/backtotop"));
-const Chatbot = dynamic(() => import("../src/components/sections/index/chatbot"));
-import { AppProps } from 'next/app';
-
+import { AppProps } from "next/app";
 
 // NProgress configuration
 
-NProgress.configure({showSpinner: false});
+NProgress.configure({ showSpinner: false });
 // NProgress start on route change
 
-Router.events.on('routeChangeStart', () => {
-    NProgress.start();
+Router.events.on("routeChangeStart", () => {
+  NProgress.start();
 });
 // NProgress stop on route change
 
-Router.events.on('routeChangeComplete', () => {
-    NProgress.done();
+Router.events.on("routeChangeComplete", () => {
+  NProgress.done();
 });
 // NProgress stop on route change error
 
-Router.events.on('routeChangeError', () => {
-    NProgress.done();
+Router.events.on("routeChangeError", () => {
+  NProgress.done();
 });
 
-interface MyAppProps extends AppProps{
-    Component: React.FC;
-    pageProps: any;
+interface MyAppProps extends AppProps {
+  Component: React.FC;
+  pageProps: any;
 }
 
 const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => {
-    const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
-    useEffect(() => {
-        // Check if splashscreen is enabled in settings
-        const shouldShowSplashscreen = settings.splashscreen;
+  useEffect(() => {
+    // Check if splashscreen is enabled in settings
+    const shouldShowSplashscreen = settings.splashscreen;
 
-        // If splashscreen is enabled, set a timeout to hide it after a certain duration
-        if (shouldShowSplashscreen) {
-            const timer = setTimeout(() => {
-                setIsLoading(false);
-            }, 4000);
+    // If splashscreen is enabled, set a timeout to hide it after a certain duration
+    if (shouldShowSplashscreen) {
+      const timer = setTimeout(() => {
+        setIsLoading(false);
+      }, 4000);
 
-            return () => clearTimeout(timer);
-        } else {
-            // If splashscreen is disabled, hide it immediately
-            setIsLoading(false);
-        }
-    }, []);
+      return () => clearTimeout(timer);
+    } else {
+      // If splashscreen is disabled, hide it immediately
+      setIsLoading(false);
+    }
+  }, []);
 
-    return (
-        <>
-            {isLoading ? (
-                <LoadingScreen />
-            ) : (
-                <LazyMotion features={domAnimation}>
-                    <Layout>
-                        <Head><title>Shivam Tiwari</title></Head>
-                        <Component {...pageProps} />
-                        {/* <DevelopmentNotice /> */}
-                        {/* <Chatbot /> */}
-                        <SpeedInsights/>
-                        <Analytics />
-                        <SetGridGap />
-                    </Layout>
-                    <BackToTop />
-                </LazyMotion>
-            )}
-        </>
-    );
+  return (
+    <>
+      {isLoading ? (
+        <LoadingScreen />
+      ) : (
+        <LazyMotion features={domAnimation}>
+          <Layout>
+            <Head>
+              <title>Shivam Tiwari</title>
+            </Head>
+            <Component {...pageProps} />
+            <SpeedInsights />
+            <Analytics />
+            <SetGridGap />
+          </Layout>
+          <BackToTop />
+        </LazyMotion>
+      )}
+    </>
+  );
 };
 
 export default MyApp;

@@ -16,7 +16,7 @@ export default function Document() {
         {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
         <meta
           name="description"
-          content="Shivam Tiwari - A dedicated Web Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."
+          content="Shivam Tiwari - A dedicated Software Engineer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."
         />
 
         {/*These are need for PWA*/}
@@ -93,7 +93,7 @@ export default function Document() {
         <meta property="og:title" content="Shivam Tiwari" key="title" />
         <meta
           property="og:description"
-          content="Shivam Tiwari - A dedicated Web Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."
+          content="Shivam Tiwari - A dedicated Software Engineer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."
         />
         <meta
           property="og:image"
@@ -156,24 +156,24 @@ export default function Document() {
         <meta
           name="keywords"
           content="
-    Shivam Tiwari, Full Stack Engineer, Web Developer, DevOps Engineer, Software Engineer,
-    Programmer, Software Developer, Portfolio Website, Web Developer, Coding, Full Stack Development,
+    Shivam Tiwari, Full Stack Engineer, Software Engineer, DevOps Engineer, Software Engineer,
+    Programmer, Software Developer, Portfolio Website, Software Engineer, Coding, Full Stack Development,
     Technology Enthusiast, Software Development, Computer Science, Programming Projects,
     Frontend Developer, Backend Developer, Software Development Portfolio, Student,
-    Full Stack Web Developer, Shivam Tiwari Portfolio, Coding Projects, Tech Portfolio,
+    Full Stack Software Engineer, Shivam Tiwari Portfolio, Coding Projects, Tech Portfolio,
     Web Development, DevOps Professional, Shivam Tiwari Projects, Software Engineer Portfolio,
     IT Professional, Technology Projects, Software Development Engineer, Computer Programmer,
     Code Portfolio, Technology Student, Software Architect, Cloud Computing,
     DevOps Specialist, Software Engineering Projects, Coding Portfolio,
-    Full Stack Engineer Portfolio, Shivam Tiwari Web Developer,
+    Full Stack Engineer Portfolio, Shivam Tiwari Software Engineer,
     Software Development Student, Coding Enthusiast, DevOps Portfolio, Programming Portfolio,
-    Shivam Tiwari DevOps, IT Portfolio, Web Developer Portfolio, Shivam Tiwari Developer,
+    Shivam Tiwari DevOps, IT Portfolio, Software Engineer Portfolio, Shivam Tiwari Developer,
     Full Stack Engineer Shivam Tiwari, Shivam Tiwari Coding, Shivam Tiwari IT,
-    Shivam Tiwari Web Developer, Shivam Tiwari Software Engineer, Shivam Tiwari DevOps Engineer,
+    Shivam Tiwari Software Engineer, Shivam Tiwari Software Engineer, Shivam Tiwari DevOps Engineer,
     Shivam Tiwari Programming, Shivam Tiwari Software Development, Shivam Tiwari Coding Projects,
     Shivam Tiwari Tech Portfolio, Shivam Tiwari IT Portfolio, Shivam Tiwari Software Engineer Portfolio,
-    Shivam Tiwari Web Developer Portfolio, Shivam Tiwari DevOps Portfolio, Shivam Tiwari Full Stack Engineer,
-    Shivam Tiwari Web Developer Portfolio, Shivam Tiwari Coding Portfolio, Shivam Tiwari Programming Portfolio,
+    Shivam Tiwari Software Engineer Portfolio, Shivam Tiwari DevOps Portfolio, Shivam Tiwari Full Stack Engineer,
+    Shivam Tiwari Software Engineer Portfolio, Shivam Tiwari Coding Portfolio, Shivam Tiwari Programming Portfolio,
     Shivam Tiwari Software Development Portfolio, Shivam Tiwari Technology Projects,
     Shivam Tiwari Computer Science, Shivam Tiwari Cloud Computing, Shivam Tiwari IT Professional,
     Shivam Tiwari Technology Enthusiast, Shivam Tiwari Computer Programmer, Shivam Tiwari Code Portfolio,
@@ -199,13 +199,6 @@ export default function Document() {
           "@type": "Person",
           "name": "Shivam Tiwari",
           "url": "https://shivamtiwari.info",
-          "sameAs": [
-            "https://github.com/muhammad-fiaz",
-            "https://www.linkedin.com/in/muhammad-fiaz-",
-            "https://medium.com/@muhammad-fiaz",
-            "https://twitter.com/muhammadfiaz_",
-            "https://dev.to/muhammadfiaz"
-          ]
         }`,
           }}
         />
@@ -240,7 +233,7 @@ export default function Document() {
                 "name": "Who is Shivam Tiwari?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Shivam Tiwari is a Web Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Shivam Tiwari strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Shivam Tiwari is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
+                  "text": "Shivam Tiwari is a Software Engineer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Shivam Tiwari strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Shivam Tiwari is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
                 }
               },
               {
@@ -278,16 +271,6 @@ export default function Document() {
               "position": 1,
               "name": "Home",
               "item": "https://shivamtiwari.info/"
-            },{
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Docs",
-              "item": "https://shivamtiwari.info/docs"
-            },{
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Articles",
-              "item": "https://shivamtiwari.info/articles"
             },{
               "@type": "ListItem",
               "position": 4,

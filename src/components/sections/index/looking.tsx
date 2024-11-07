@@ -18,7 +18,7 @@ export default function Looking() {
         <h4>I&apos;m currently looking for Jobs.</h4>
         <h2 className={looking.json}>Jobs : &#123;</h2>
         <h2 className={looking.jsonSub}>
-          <span className={looking.highlight}>Web Developer</span>,
+          <span className={looking.highlight}>Software Engineer</span>,
         </h2>
         <h2 className={looking.jsonSub}>
           <span className={looking.highlight2}>Software Engineer</span>
